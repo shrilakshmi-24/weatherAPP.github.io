@@ -40,7 +40,7 @@ function GetInfo() {
 
     }
 
-fetch('https://api.openweathermap.org/data/2.5/forecast?q='+name_.value+'&appid=789d9b64e1edc1c1a4d4e84f0b7f9d4b')
+fetch('https://api.openweathermap.org/data/2.5/forecast?q='+name_.value+'&appid=616786eeedb62f4c8c73dd6fbad5a71d')
 .then(response => response.json())
 .then(data => {
 
